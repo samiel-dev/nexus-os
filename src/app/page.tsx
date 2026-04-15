@@ -129,8 +129,9 @@ function Header() {
   return (
     <header style={{
       position: "fixed", top: 0, left: 0, right: 0, zIndex: 100,
-      background: scrolled ? "rgba(9,9,11,0.85)" : "transparent",
-      backdropFilter: scrolled ? "blur(20px)" : "none",
+      background: scrolled ? "var(--glass-1)" : "transparent",
+      backdropFilter: scrolled ? "blur(var(--blur-md))" : "none",
+      WebkitBackdropFilter: scrolled ? "blur(var(--blur-md))" : "none",
       borderBottom: scrolled ? "1px solid var(--border)" : "1px solid transparent",
       transition: "all 0.3s ease",
     }}>
