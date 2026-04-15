@@ -1,36 +1,84 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+<img src="https://img.shields.io/badge/NexusOS-v2.0-8B5CF6?style=for-the-badge&logo=lightning&logoColor=white" />
+<img src="https://img.shields.io/badge/Next.js-16.2-black?style=for-the-badge&logo=next.js" />
+<img src="https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/Deployed-Vercel-000?style=for-the-badge&logo=vercel" />
+<img src="https://img.shields.io/badge/Market-Rabat%2C%20Morocco-CC0001?style=for-the-badge&logo=google-maps&logoColor=white" />
 
-First, run the development server:
+# ⚡ NexusOS — L'OS des Startups Marocaines
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+**L'unique plateforme SaaS tout-en-un conçue nativement pour le marché marocain.**  
+Gestion de projets · CRM · Facturation MAD · RH/Paie · Analytics IA · Chat d'équipe
+
+🌐 **[Voir la démo live →](https://nexus-os-blush.vercel.app)**
+
+</div>
+
+---
+
+## 🚀 Fonctionnalités
+
+| Module | Description |
+|---|---|
+| 📊 **Vue d'ensemble** | KPIs animés, graphiques revenus/dépenses, activité en temps réel |
+| 📋 **Projets & Kanban** | Gestion agile avec tableau Kanban, suivi, priorités |
+| 👥 **CRM & Pipeline** | Scoring IA des clients, pipeline de ventes, détail client |
+| 📄 **Facturation** | TVA 20% Maroc, ICE/IF, PDF, suivi des paiements en MAD |
+| 👤 **RH & Paie** | Employés, congés, fiches de paie CNSS/AMO/IR automatiques |
+| 🤖 **NexusAI Chat** | Assistant IA contextuel, insights, prévisions sur vos données |
+| 📈 **Analytics IA** | Santé globale, radar, prédictions, recommandations actionnables |
+| 💬 **Chat équipe** | Canaux thématiques, messages directs, notifications |
+| ⚙️  **Paramètres** | Profil, notifications, régional, sécurité 2FA |
+
+## 🎨 Stack Technique
+
+```
+Next.js 16.2 (App Router)  ·  TypeScript  ·  Tailwind CSS
+Recharts  ·  Framer Motion  ·  Lucide Icons
+Vercel (Hosting)  ·  GitHub Actions (CI/CD)
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ⚡ Lancer en local
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+git clone https://github.com/samiel-dev/nexus-os.git
+cd nexus-os
+npm install
+npm run dev
+# → http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌍 Déploiement
 
-## Learn More
+```bash
+# Déploiement production immédiat
+vercel --prod
 
-To learn more about Next.js, take a look at the following resources:
+# Le CI/CD GitHub Actions déploie automatiquement sur chaque push vers master
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🇲🇦 Localisation Maroc
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- 💰 Devise native **MAD (Dirhams marocains)**
+- 🧾 **TVA 20%** calculée automatiquement 
+- 🏛️ **CNSS · AMO · IR** sur les fiches de paie
+- 📋 Champs **ICE / IF** sur les factures (conformité DGI)
+- 🕐 Fuseau **Africa/Casablanca (GMT+1)**
+- 🗣️ Interface en **Français** (Arabe RTL en cours)
 
-## Deploy on Vercel
+## 💰 Tarification
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Plan | Prix | Cible |
+|---|---|---|
+| Starter | 490 MAD/mois | Startups early-stage |
+| **Growth** ⭐ | **1 490 MAD/mois** | Équipes en croissance |
+| Enterprise | 3 990 MAD/mois | Agences & grandes structures |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+<div align="center">
+
+Construit avec ❤️ à Rabat · © 2026 NexusOS SARL
+
+</div>
